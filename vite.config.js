@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/movie/',  
+  base: '/movies/',  
   build: {
     outDir: 'dist',  // Папка для собранных файлов
     assetsDir: 'assets',  // Подпапка для CSS/JS
